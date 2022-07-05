@@ -1,0 +1,10 @@
+header{
+    position: relative;
+    border-bottom: 1px solid #f6f6f6;
+}
+header h1 a{
+    background-position: 0 0;
+}
+header nav .btn_allMenu{
+    background-position: -80px 0;
+}

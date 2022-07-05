@@ -1,0 +1,72 @@
+section h2{
+    font-size: 18px;
+    padding: 27px 16px;
+    border-bottom: 1px solid #f2f2f2;
+}
+section div.tits{
+    border-bottom: 1px solid #ededed;
+    padding: 0 16px;
+
+    display: flex;
+}
+section .tits h3{
+    flex: 1;
+    color:#9a9a9a;
+}
+section .tits h3.active{
+    border-bottom: 2px solid #000;
+    color: #000;
+    font-weight: bold;
+    padding: 0 16px;
+}
+section .tits h3 a{
+    padding: 8px 0 18px 0;
+    text-align: center;
+}
+
+section .cons ul li{
+    padding: 22px 22px;
+    border-bottom: 1px solid #f2f2f2;
+    position: relative;
+}
+section .cons .tit{
+    font-weight: bold;
+    padding-bottom: 10px;
+    line-height: 1.4;
+}
+section .cons .txt{
+    color: #919191;
+    font-size: 13px;
+}
+section .cons .pages{
+    text-align: center;
+    padding: 42px 0;
+}
+
+section .cons #gong .link{
+    width: 15px;
+    height: 15px;
+    display: block;
+    background-position: -100px -19px;
+    position: absolute;
+    top: 40%;
+    right: 20px;
+}
+
+section .cons #event li a{
+    display: flex;
+    align-items: center;
+}
+section .cons #event .conbox{
+    padding-left: 20px;
+}
+section .cons #event .conbox .tit{
+    padding-bottom: 30px;
+}
+#event li:hover img{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+#event{
+    display: none;
+}
